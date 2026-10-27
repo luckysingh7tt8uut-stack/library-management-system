@@ -1,0 +1,17 @@
+[theme]
+primaryColor = "#4F46E5"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F5FA"
+textColor = "#1F2330"
+font = "sans serif"
+
+[server]
+# Pin the app to this exact address/port so the link
+# http://127.0.0.1:8501 is always the correct one to open.
+address = "127.0.0.1"
+port = 8501
+headless = true
+maxUploadSize = 5
+
+[browser]
+gatherUsageStats = false
